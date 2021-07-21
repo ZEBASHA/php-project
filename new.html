@@ -1,0 +1,1033 @@
+<html lang="en" dir="ltr">
+<head>
+<title> </title>
+
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+ 
+  
+  
+  
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+  </head>
+
+
+
+
+</head>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+:root{
+    --red:#e84118;
+}
+
+
+
+
+*{ margin: 0; padding: 0; box-sizing: border-box;  }
+
+
+a{ text-decoration: none; }
+	a:hover{
+		text-decoration: none;
+	}
+	li{ list-style: none;
+	}
+	
+	p{
+		font-size: 0.9rem;
+		line-height: 1.6;
+		font-weight: 400;
+		color: Bule;
+	}
+	i{
+		color: #2fccd0;
+	}
+
+.header{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3)),url('\D:\gulf space trading & services\image\office.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	clip-path: polygon(100% 0%, 100% 77%, 50% 100%, 0 75%,0 0);
+	position: relative;
+}
+
+.header: before{
+	content: "";
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0;
+	right: 0;
+	opacity: -3;
+	z-index: -1;
+	background: linear-gradient(to right, a1e5799 0%, a3ccdbb 0%, a16c9f6 100%);
+}
+
+
+.navbar: before{
+content: "";
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0;
+	right: 0;
+	opacity: -3;
+	z-index: -1;
+	background: linear-gradient(to right, a1e5799 0%, a3ccdbb 0%, a16c9f6 100%);	
+}
+
+
+.nav-item a{
+	color: #fff!important;
+	font-weight: bold;
+}
+
+div.header-buttons a{
+	text-decoration: none;
+}
+.header-section{
+	width: 100%;
+	height: inherit;
+	color: white;
+	text-align: center;
+	position: relative;
+}
+.center-div{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 30%;
+	left: 5%;
+	transform: transform(-50% ,-50%);
+	-ms-transform: transform(-50% ,-50%);
+	-webkit-transform: transform(-50% ,-50%);
+}
+.center-div h1{
+	color: white;
+}
+.header-buttons a{
+	border: 1px solid #fff;
+	border-radius: 100px;
+	margin: 0 5px;
+	padding: 12px 35px;
+	outline: none;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.4;
+	text-align: center;
+}
+.header-buttons a:hover{
+	color: #50d1co;
+	background: white;
+	text-decoration: none;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0,3);
+}
+.nav-link a:hover{
+color: black;
+}
+
+
+.center-div p{
+	font-size: 1.3rem;
+	padding: 10px 0 20px 0;
+	
+}
+
+
+.card{
+	cursor: pointer;
+}
+.card img{
+	transform: translateY(-50px);
+	border-radius: 15px;
+	z-index: 1;
+	
+}
+.card .card-body{
+	visibility: hidden;
+	transform: translateY(-150px);
+	height: 0px;
+	
+}
+.card:hover .card-body{
+	visibility: visible;
+	transform: translateY(-50px);
+	transition: .5s;
+	height: auto;
+}
+div.extra-div{
+	margin: 80px;
+}
+
+section.serviceffers{
+	background: #f7f7f9;
+	padding: 50px 0;
+	margin-bottom: 50px;
+}
+
+.headings{
+	margin-bottom: 50px;
+	
+}
+.headings h1{
+	font-size: 1.5rem;
+	font-weight: 600px;
+	text-transform: uppercase;
+}
+div.names h1{
+	color: #2e2e2e;
+	font-size: 0.10rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	
+}
+.extra-div h2, .servicediv h2{
+	font-size: 0.9rem;
+	margin: 20px 0 15px 0;
+	font-weight: 1.9;
+	word-spacing: 6px;	
+}
+ div.service-icons{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	
+}
+.progress{
+	height: 0.9rem!important;
+}
+/.................................................3 div start..................................//
+.project-work{
+	margin: 100px 0;
+	
+}
+.project-work{
+	font-size: 2rem;
+	text-align: center;
+}
+
+/.................................................3 div end..................................//
+/.................................................4 div start................................//
+.pricing{
+	background: #f7f7f9;
+	width: 100%;
+	height: 100vh;
+	padding: 50px;
+	position: relative;
+	margin-bottom: 50px;
+	margin: 80px;
+}
+.pricing:before{
+	content: "";
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0;
+	right: 0;
+	opacity: -3;
+	z-index: -1;
+	background: linear-gradient(160deg,#16c9f6 55%, #fff 0%);
+}	
+
+.money{
+	font-size: 40px;
+	line-height: 1;
+	color: #606060;
+}
+
+.card-header{
+	font-size: 1.6rem;
+	font-weight: bold;
+	background: #fff!important;
+	padding: 25px 9!important;
+}
+
+.body{
+	padding: 30px 0px!important;
+}
+
+.body li{
+	margin: 10px 0;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 1.6;
+	color: #606060;
+}
+ .card-footer{
+	background: white!important;
+	padding: 30px 0px!important;
+}
+.card-footer a{
+	border: 1px solid #50d1c0;
+	border-radius: 100px;
+	margin: 0 5px;
+	padding: 12px 35px;
+	outline: none;
+	color: #50d1c0;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.4;
+	text-align: center;
+}
+.card-footer a:hover{
+	color: #fff;
+	background: #50d1c0;
+	text-decoration: none;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0,3);
+}
+.card:hover{
+	transform: translateY(-20px);
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+.card:hover .card-header, .card:hover .money{
+	color: #50d1c0;
+}
+
+/.................................................4 div end................................//
+
+.middle{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+.counting-sec{
+  padding: 40px 0;
+  width: 100%;
+  background: linear-gradient(90deg,#3c6382,#82ccdd);
+}
+.inner-width{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+}
+.col{
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.col i{
+  font-size: 40px;
+  color: #333;
+}
+.num{
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+.happyclient{
+	margin: 100px 0;
+}
+.happyclient h1{
+	font-size: 2rem;
+	text-align: center;
+}
+
+
+.project-work{
+	margin: 100px 0;
+	
+}
+.project-work h1{
+	font-size: 2rem;
+text-align: center;	
+}
+.query{
+	margin: 10% 0;
+		background: linear-gradient(180deg,#16c9f6 55%, #fff 0%);
+color: #50d1co;
+	
+	text-decoration: none;
+	
+}
+.sub button{
+	color: #50d1co;
+	background: green;
+	text-decoration: none;
+	box-shadow: 0 0px 20px 0px rgba(0,0,0,0,3);
+	background: transparent;
+	text-align: center;
+	margin: 0 200px;
+	margin-top: 20px;
+}
+
+.form text:hover{
+	
+}
+.footersection{
+	
+	height: 250px;
+	margin-top: 50px;
+	background: #00abff;
+	position: relative;
+}
+
+.footersection p{
+	color: #fff;
+}
+.footersection li a{
+	font-size: 0.9rem;
+	height: 100px;
+	line-height: 1.6;
+	font-weight: 400;
+	color: #fff;
+	text-transform: capitalize;
+}
+.newsletter{
+	
+	
+	margin-top: 100px;
+}
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+@media (max-width:600px){
+
+    .order form .inputBox input,
+    .order form .inputBox select,
+    .order form .inputBox textarea,
+    .order form .inputBox #map{
+        width: 100%;
+    }
+
+}
+
+@media (max-width:400px){
+
+    html{
+        font-size: 50%;
+    }
+
+    header .header-1{
+        flex-flow: column;
+    }
+
+    header .header-1 .logo{
+        padding-bottom: 1rem;
+    }
+
+    header .header-2 .navbar ul{
+        width: 100vw;
+    }
+
+    .header{
+        width: 95%;
+    }
+
+}
+
+/.................................................4 div start..................................//
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!....................Nav-Bar......................................................................................................//>
+<body>
+<div class="header" id="topheader">
+
+<nav class="navbar navbar-expand-lg">
+<div class="container text-uppercase p-2">
+  <a class="navbar-brand font-weight-bold text-white" href="#">Navbar</a>
+  <button class="navbar-toggler color-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon color-white"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">abouts <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">location</a>
+      </li>
+	  
+	  <li class="nav-item">
+        <a class="nav-link" href="#">contacts</a>
+      </li>
+	  
+	  <li class="nav-item">
+        <a class="nav-link" href="#">image</a>
+      </li>
+	  
+	  <li class="nav-item">
+        <a class="nav-link" href="#">details</a>
+      </li>
+      
+      
+    </ul>
+    
+  </div>
+</nav>
+<!.................... End Nav-Bar......................................................................................................//>
+<!....................Body Artical......................................................................................................//>
+
+
+<section class="header-section">
+<div class="center-div">
+ <h1 class="font-weight-bold">Gulf space & trading services</h1>
+ <p>fournetur</p> <section class="header-section">
+
+ <div class="header-buttons">
+ <a href="#">more</a>
+ </div>
+ </div>
+</section>
+
+</div>
+<!...................End the Body Artical  ......................................................................................................//>
+<!.................... 1 Start Extra Div......................................................................................................//>
+
+
+
+<div class="extra-div">
+<div class="row main-row">
+<div class="col-md-4 mb-5">
+<div class="card p-3" style="width: 18rem;">
+<img src="C:\xampp\htdocs\phpproject\image\card.jpg" class="card-img-top shadow bg-white rounded">
+<div class="card-body">
+<h5 class="card-title">chair</h5>
+<h3>ghhkhfdd</h3>
+<button type="button" class="btn btn-outline-dark">REad more</button>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-4 mb-5">
+<div class="card p-3" style="width: 18rem;">
+<img src="D:\image\card.jpg" class="card-img-top shadow bg-white rounded">
+<div class="card-body">
+<h5 class="card-title">chair</h5>
+<h3>ghhkhfdd</h3>
+<button type="button" class="btn btn-outline-dark">REad more</button>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="col-md-4 mb-5">
+<div class="card p-3" style="width: 18rem;">
+<img src="D:\image\card.jpg" class="card-img-top shadow bg-white rounded">
+<div class="card-body">
+<h5 class="card-title">chair</h5>
+<h3>ghhkhfdd</h3>
+<button type="button" class="btn btn-outline-dark">REad more</button>
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+<!.................... End 1 Start Extra-Div......................................................................................................//>
+
+<!.........................Star 2 div............................................................................................................//>
+
+<section class="serviceffers" id="servicediv">
+<div class="container headings text-center">
+<h1 class="text-center font-weight-bold"> WHATBDO WE OFFER</h1>
+<p class="text-center">Learn more offers details.</p>
+</div>
+
+<div class="container">
+<div class="row">
+<div class="col-lg-6  col-md-12 col-10 offset-1 offset-lg-0">
+<div class="names my-3">
+
+
+
+<h3>chair</h3>
+<div class="progress w-75">
+  <div class="progress-bar" style="width:100%">100%</div>
+</div>
+<h3>Tables</h3>
+<div class="progress w-75">
+    <div class="progress-bar bg-danger" style="width:50%">50%</div>
+  </div><br>
+</div>
+<h3>office Banchs</h3>
+<div class="progress w-75">
+     <div class="progress-bar bg-warning" style="width:70%">70</div>
+  </div><br>
+  <h3>Bed</h3>
+  <div class="progress w-75">
+    <div class="progress-bar bg-success" style="width:40%">40%</div>
+  </div><br>
+  </div>
+
+ <!!.............................Right side div...........................//>
+ <div class="col-lg-6 col-md-12 col-12 servicediv">
+ <div class="row">
+ <div class="col-lg-2 col-2 service-icons">
+ <i class="fa-3x fa fa-desktop"></i>
+  </div>
+  <div class="col-lg-10 col-10"> 
+  <h2>Website Develoement</h2>
+  <p>lorem ipsum mudeles sit </p>
+</div> 
+
+
+ <div class="row">
+ <div class="col-lg-2 col-2 service-icons">
+ <i class="fa-3x fa fa-wifi"></i>
+  </div>
+  <div class="col-lg-10 col-10"> 
+  <h2>Website Develoement</h2>
+  <p>lorem ipsum mudeles sit </p>
+</div> 
+
+<div class="row">
+ <div class="col-lg-2 col-2 service-icons">
+ <i class="fa-3x fa fa-phone"></i>
+  </div>
+  <div class="col-lg-10 col-10"> 
+  <h2>Website Develoement</h2>
+  <p>lorem ipsum mudeles sit </p>
+</div> 
+ 
+</div>
+</section>
+<!!.............................Right side div has done...........................//>
+<!!.............................3 div start...........................//>
+<section class="project-work">
+<div class="container headings text-center">
+<p class="text-center font-weight-bold"> More then 2,000 happy clients</p>
+</div>
+<div class="middle">
+    <div class="counting-sec">
+      <div class="inner-width">
+        <div class="col">
+          <i class="far fa-smile-wink"></i>
+          <div class="num">1246</div>
+          Speakers
+        </div>
+
+        <div class="col">
+          <i class="fas fa-briefcase"></i>
+          <div class="num">19</div>
+          Services
+        </div>
+
+        <div class="col">
+          <i class="far fa-money-bill-alt"></i>
+          <div class="num">687</div>
+          Sells
+        </div>
+
+        <div class="col">
+          <i class="far fa-object-group"></i>
+          <div class="num">87</div>
+          Templates
+        </div>
+      </div>
+    </div>
+	</div>
+</section>
+<!!.............................3 div End...........................//>
+<!!.............................4 div start...........................//>
+
+<section class="pricing jumbotron">
+<div class="container headings text-center">
+<h1 class="text-center font-weight-bold text-black"> Our Best Pricing</h1>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-lg-4 col-12">
+<div class="card text-center">
+<div class="card-header">Basic</div>
+<div class="body">
+<li> $<span class="money">20</span>/Website</li>
+<li>Responsive Websites</li>
+<li>Domain Name Free</li>
+<li>Mobile Friendly</li>
+<li>Webmail Support</li>
+<li>Customer Support 24/7</li>
+</div>
+<div class="card-footer">
+<a href="#">Purchase</a>
+</div>
+</div>
+</div>
+
+<div class="col-lg-4 col-12">
+<div class="card text-center">
+<div class="card-header">Basic</div>
+<div class="body">
+<li> $<span class="money">20</span>/Website</li>
+<li>Responsive Websites</li>
+<li>Domain Name Free</li>
+<li>Mobile Friendly</li>
+<li>Webmail Support</li>
+<li>Customer Support 24/7</li>
+</div>
+<div class="card-footer">
+<a href="#">Purchase</a>
+</div>
+</div>
+</div>
+
+<div class="col-lg-4 col-12">
+<div class="card text-center">
+<div class="card-header">Basic</div>
+<div class="body">
+<li> $<span class="money">20</span>/Website</li>
+<li>Responsive Websites</li>
+<li>Domain Name Free</li>
+<li>Mobile Friendly</li>
+<li>Webmail Support</li>
+<li>Customer Support 24/7</li>
+</div>
+<div class="card-footer">
+<a href="#">Purchase</a>
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+</section>
+
+<!!.............................4 div End...........................//>
+<!!.............................5 div our customers feedback start...........................//>
+
+<section class="happyclient margin-100px">
+<div class="container headings text-center">
+<h1 class="text-center font-weight-bold text-black"> Our Happy Clients</h1>
+<p class="text-capitalize pt-1">Our Satisfied customer says</p>
+</div>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+     <div class="row">
+<div class="col-lg-4 col-md-4 col-12">	 
+<div class="box">
+<a href="#"><img src="D:\image/office.jpg" class="img-fluidi img-thumbnail"></a>
+<p class="m-4" >loren ipsum dolor sut amet,consectetur
+adipisicing elit, sed do elufdfg tempor incididunt utf-8
+labore et dolore magna alique.</a>
+  
+	  
+	  
+	</div>
+</div>
+
+<div class="col-lg-4 col-md-4 col-12">	 
+<div class="box">
+<a href="#"><img src="D:\gulf space trading & services\image/logo.jpg" class="img-fluidi img-thumbnail"></a>
+<p class="m-4" >loren ipsum dolor sut amet,consectetur
+adipisicing elit, sed do elufdfg tempor incididunt utf-8
+labore et dolore magna alique.</a>
+	  
+	  
+	  
+	</div>
+</div>
+
+<div class="col-lg-4 col-md-4 col-12">	 
+<div class="box">
+<a href="#"><img src="D:\gulf space trading & services\image/dinner.jpg" class="img-fluidi img-thumbnail"></a>
+<p class="m-4" >loren ipsum dolor sut amet,consectetur
+adipisicing elit, sed do elufdfg tempor incididunt utf-8
+labore et dolore magna alique.</a>
+  
+	  
+	  
+	</div>
+</div>
+
+</div></div>
+
+
+    <div class="carousel-item">
+	<div class="carousel-item active">
+	<div class="row">
+     <div class="col-lg-4 col-md-4 col-12">	 
+<div class="box">
+<a href="#"><img src="D:\gulf space trading & services\image/dreg.jpg" class="img-fluidi img-thumbnail"></a>
+<p class="m-4" >loren ipsum dolor sut amet,consectetur
+adipisicing elit, sed do elufdfg tempor incididunt utf-8
+labore et dolore magna alique.</a>
+</div>
+</div>
+   <div class="col-lg-4 col-md-4 col-12">	 
+<div class="box">
+<a href="#"><img src="D:\gulf space trading & services\image/sofa.png" class="img-fluidi img-thumbnail"></a>
+<p class="m-4" >loren ipsum dolor sut amet,consectetur
+adipisicing elit, sed do elufdfg tempor incididunt utf-8
+labore et dolore magna alique.</a>
+ 
+</div>
+</div>
+
+   <div class="col-lg-4 col-md-4 col-12">	 
+<div class="box">
+<a href="#"><img src="D:\image/office.jpg" class="img-fluidi img-thumbnail"></a>
+<p class="m-4" >loren ipsum dolor sut amet,consectetur
+adipisicing elit, sed do elufdfg tempor incididunt utf-8
+labore et dolore magna alique.</a>
+
+</div>
+</div>
+</div>
+</div>
+
+  <div class="carousel-item">
+	<div class="carousel-item active">
+	<div class="row">
+     <div class="col-lg-4 col-md-4 col-12">	 
+<div class="box">
+<a href="#"><img src="D:\gulf space trading & services\image/dreg.jpg" class="img-fluidi img-thumbnail"></a>
+<p class="m-4" >loren ipsum dolor sut amet,consectetur
+adipisicing elit, sed do elufdfg tempor incididunt utf-8
+labore et dolore magna alique.</a>
+</div>
+</div>
+   <div class="col-lg-4 col-md-4 col-12">	 
+<div class="box">
+<a href="#"><img src="D:\gulf space trading & services\image/sofa.png" class="img-fluidi img-thumbnail"></a>
+<p class="m-4" >loren ipsum dolor sut amet,consectetur
+adipisicing elit, sed do elufdfg tempor incididunt utf-8
+labore et dolore magna alique.</a>
+ 
+</div>
+</div>
+
+   <div class="col-lg-4 col-md-4 col-12">	 
+<div class="box">
+<a href="#"><img src="D:\image/office.jpg" class="img-fluidi img-thumbnail"></a>
+<p class="m-4" >loren ipsum dolor sut amet,consectetur
+adipisicing elit, sed do elufdfg tempor incididunt utf-8
+labore et dolore magna alique.</a>
+
+</div>
+</div>
+
+
+
+
+</div>
+	  
+  </div>
+
+ 
+
+
+
+</section>
+
+
+<!!.............................5 div our customers feedback End...........................//>
+<!!.............................6 div forms...........................//>
+
+<section class="query">
+<div class="py">
+<h2 class="text-center">Customer Query</h2>
+</div>
+
+<div class="w-50 m-auto">
+<form action="gulf.php" method="post">
+<div class="form">
+<label>username</label>
+<input type="text" name="username" autocomplete="off" class="form-control" placeholder="Your Name">
+
+<label>Email</label>
+<input type="text" name="Email" autocomplete="off" class="form-control" placeholder="Your Email"> 
+
+<label>contect</label>
+<input type="text" name="contect" autocomplete="off" class="form-control" placeholder="Your contact"> 
+
+
+<div class="sub">
+<label for="comment">Comment</label>
+      <textarea class="form-control" rows="5" id="comment" name="comment" placeholder="Your masseges"></textarea>
+	  <button type="Submit" class="btn btn-primary">Submit</button>
+</div>	  
+	  
+	 </div> 
+	 </form>
+</div>
+</div>
+</div>	 
+    </select>
+  
+
+<!!.............................6 div forms End...........................//>
+<!!.............................NewSelectter...........................//>
+<section class="newsletter" id="newselectterid">
+<div class="py">
+<h2 class="text-center">Subscribe to our newselectter</h2>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-lg-8 offset-lg-2 col-12 ">
+      
+	  <div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Your Email">
+    <div class="input-group-append">
+      <span class="input-group-text">@example.com</span>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</section>
+
+<!!.............................newsletter End...........................//>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!!.............................footer...........................//>
+<footer class="footersection" id="footerdiv">
+<div class="container look-footer">
+<div class="row">
+
+<div class="col-lg-4 col-md-6 col-12 footer-div">
+<div>
+<h3>About Company</h3>
+<p>the world has become so fast paced that peoples dont want to
+ stand by reading a page of information to be they would much 
+ rather look at a presention and understand the massage.
+</p>
+</div>
+</div>
+
+<div class="col-lg-4 col-md-6 col-12 footer-div text-center">
+<div>
+<h3>Navigation Link</h3>
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Contect</a></li>
+<li><a href="#">Location</a></li>
+
+</div>
+</div>
+
+<div class="col-lg-4 col-md-12 col-12 footer-div">
+<div>
+<h3>NewSelectter</h3>
+<p>the world has become so fast paced that peoples dont want to
+ stand by reading a page of information to be they would much 
+ rather look at a presention and understand the massage.
+</p>
+<div class="container newsletter-main">
+<div class="row">
+<div class="col-lg-8 offset-lg-2 col-12">
+<div class="input-group mb-3">
+<input type="text" class="form-control news-input" placeholder="Your Email">
+<div class="input-group-appand">
+<span class="input-group-text">Subscribe</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+</div>
+</div>
+</footer>
+<footer>
+  <p>Footer</p>
+</footer>
+
+
+<!!.............................footer End...........................//>
+
+
+    <script src="../jquery.counterup.min.js"></script>
+
+ <script type="text/javascript">
+    $(".num").counterUp({delay:10,time:1000});
+  </script>	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 
+
+
+ 
+ 
+ 
+ 
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+
+
+  
+  
+
+  </script>
+</body>
+</html>
